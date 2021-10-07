@@ -57,7 +57,7 @@ defmodule Exfile.Mixfile do
       {:plug, "~> 1.0"},
       {:ecto, "~> 3.0", optional: true},
       {:phoenix, "~> 1.1", optional: true},
-      {:phoenix_html, "~> 2.3", optional: true},
+      {:phoenix_html, "~> 2.3 or ~> 3.0", optional: true},
       {:poison, "~> 1.5 or ~> 2.0 or ~> 3.1", optional: true},
       {:timex, "~> 2.0", only: [:dev, :test]},
       {:ecto_sql, "~> 3.4"},
